@@ -22,7 +22,7 @@ export default function RootLayout({
           <Navbar />
         </Providers>
         {/* Allow more height on mobile devices */}
-        <div className='h-40 md:hidden' />
+        {/* <div className='h-40 md:hidden' /> */}
       </body>
     </html>
   )
